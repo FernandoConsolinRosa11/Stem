@@ -1,0 +1,57 @@
+/*
+Error: (max-width: 1920px) isn't a valid CSS value.
+        on line 133 of C:\xampp\htdocs\DevModerna\ProjetoSitePHP\css\style.scss
+
+128:   }
+129: 
+130: }
+131: 
+132: 
+133: @media ((min-width:480px) and (max-width:1920px)){
+134:   .header{
+135:     z-index: 100;
+136:     .header-menu{
+137:       display: none !important;
+138:     }
+
+Backtrace:
+C:\xampp\htdocs\DevModerna\ProjetoSitePHP\css\style.scss:133
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/script/value/map.rb:52:in `to_s'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `map'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:553:in `run_interp_no_strip'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:560:in `run_interp'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:525:in `visit_media'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+E:/Sites/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+E:/Sites/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+E:/Sites/bin/sass:22:in `load'
+E:/Sites/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: (max-width: 1920px) isn't a valid CSS value.\A         on line 133 of C:\xampp\htdocs\DevModerna\ProjetoSitePHP\css\style.scss\A \A 128:   }\A 129: \A 130: }\A 131: \A 132: \A 133: @media ((min-width:480px) and (max-width:1920px)){\A 134:   .header{\A 135:     z-index: 100;\A 136:     .header-menu{\A 137:       display: none !important;\A 138:     }"; }
